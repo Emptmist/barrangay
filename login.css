@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: url(Pictures/login_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  max-width: 500px;
+  max-height: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+header {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 0px;
+  font-weight: 1000;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.container .form {
+  margin-top: 10px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.login-link {
+  text-align: center;
+  padding: 10px;
+  margin-top: -15px;
+  font-size: 16px;
+  margin-bottom: -20px;
+}
+.form-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.form-group input {
+  padding: 8px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: #acacac solid 2px;
+  background-color: transparent;
+  color: #000;
+  transition: 0.15s all ease;
+}
+
+.form-group input:focus {
+  border-color: #eee;
+}
+.form-group input::placeholder {
+  color: transparent;
+}
+.form-group .form-label {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-size: 18px;
+  padding: 0 10px;
+  color: #000;
+  pointer-events: none;
+  transition: 0.15s all ease;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+}
+.form-group input:focus + .form-label,
+.form-group input:not(:placeholder-shown) + .form-label {
+  transform: translate(5px, -22px);
+  background-color: #fff;
+  font-size: 14px;
+  color: #27374D;
+}
+.form a{
+  text-decoration: none;
+  color: #27374D;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form button:hover {
+  background: #9DB2BF;
+}
+.signup-img {
+  width: 180px;
+  height: 100px;
+  display: flex;
+  flex-direction: column; 
+  margin-top: -60px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-right: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-container {
+  display: flex;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #526D82;
+  border-radius: 4px;
+}
+.form button:hover {
+  background: #9DB2BF;
+}

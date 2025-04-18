@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+    background-color: #DDE6ED;
+    margin: 0;
+}
+
+.header-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-list li {
+    margin: 0 10px;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #27374D;
+}
+
+.header-list li a:hover {
+    background-color: #0A2647;
+}
+
+
+fieldset{
+    background-color: #fff  ;
+    border: none;
+}
+
+.p-head{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    height: 7%;
+    width: 100%;
+}
+
+.particle{
+    display: flex;
+    flex: 1;
+}
+
+.img1{
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-bottom: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.fs1{
+    display: absolute;
+    justify-content: center;
+    width: 650px;
+    height: 800px;
+    margin-top: 8px;
+    margin-left: 0px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.fs2{
+    width: 1110px;
+    height: 1700px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.fscontainer2{
+    padding-left: 10px;
+}
+
+.asidecontainer{
+    float: left;
+    height: 925px;
+    width: 300px;
+    background-color: darkblue;
+}
+
+.lamanngheader{
+    font-family: poppins;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #27374D;
+    height: 71px;
+}
+
+
+article{
+    margin-top: 70px;
+    padding-left: 720px;
+}
+
+aside{
+    margin-top: 62px;
+    float: left;
+    position: fixed;
+    height: 500px;
+}
+
+.arthead{
+    display: flex;
+    padding-left: 3%;
+    font-family: poppins;
+}
+
+.basicimp{
+    display: flex;
+    font-family: poppins;
+    font-size: 25;
+    padding-left: 100px;
+    justify-self: left; 
+    width: 100%;
+}
+
+.basicimp2{
+    display: flex;
+    font-family: poppins;
+    font-size: 25;
+    padding-left: 200%;
+    justify-self: left; 
+    width: 100%;
+}
+
+.extra{
+    display: flex;
+    font-family: poppins;
+    font-size: 25;
+    padding-left: 100px;
+    justify-self: left;
+    width: 150%;
+}
+
+.extra2{
+    display: flex;
+    font-family: poppins;
+    font-size: 25;
+    padding-left: 45%;
+    justify-self: left;
+    width: 150%;
+}
+
+.extrahead{
+    font-family: poppins;
+    font-size: 30;
+    padding-left: 15%;
+    padding-top: 40px;
+    justify-self: left;
+    color: #32465a;
+}
+
+.impcontain, .excontain{
+display: flex;
+}
+
+.buttonprof {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0A2647;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 590px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+
+   .buttonprof3 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #646b72;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 590px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   .buttonprof span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .buttonprof span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .buttonprof:hover span {
+    padding-right: 15px;
+   }
+   
+   .buttonprof:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+   .buttonprof3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .buttonprof3 span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .buttonprof3:hover span {
+    padding-right: 15px;
+   }
+   
+   .buttonprof3:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+.brgydiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
